@@ -22,7 +22,7 @@ OpenCV: pip install opencv-python
 
 Splitfolders: pip install split-folders
 
-PyTorch,Torchvision: pip install torch torchvision --index-url https://download.pytorch.org/whl/[version dependent](https://pytorch.org/get-started/locally/#windows-pip)
+PyTorch,Torchvision: pip install torch torchvision (for cuda support visit [here](https://pytorch.org/get-started/locally/#windows-pip) to find proper installation URL) 
 
 Keras: pip install keras
 
