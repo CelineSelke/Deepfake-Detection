@@ -17,4 +17,17 @@ Next, run create_dataset.py to create the final split_dataset directory, on the 
 
 Finally, run deepfake_detection.py to run the program which builds, trains, and evaluates the model. 
 
-### Required Packages 
+### Package Installation 
+OpenCV: pip install opencv-python
+
+Splitfolders: pip install split-folders
+
+PyTorch,Torchvision: pip install torch torchvision --index-url https://download.pytorch.org/whl/[version dependent](https://pytorch.org/get-started/locally/#windows-pip)
+
+Keras: pip install keras
+
+TensorFlow: pip install tensorflow
+
+Shutil: pip install pytest-shutil
+
+MTCNN: pip install mtcnn
